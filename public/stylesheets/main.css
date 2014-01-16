@@ -58,6 +58,11 @@ width:650px;
     border-top-style:dashed;
     
 }
+.topMenu{
+    font-size:large;
+    font-family:Tahoma,"Microsoft Sans Serif", AngsanaUPC, CordiaUPC;
+
+}
 .middle{
     height:350px;
     width:800px;

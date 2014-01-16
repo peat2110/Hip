@@ -1,19 +1,7 @@
-@(user :User)
-<html>
-<head>
-<meta http-equiv="Content-Language" content="th" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-<meta http-equiv="content-Type" content="text/html; charset=window-874"> 
-<meta http-equiv="content-Type" content="text/html; charset=tis-620"> 
-<!-- CSS link -->
-    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/demo.css ")">
-    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/main.css ")">
-    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/docs.css ")">
-    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/flat-ui.css ")">
-    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/scrollbar.css ")">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
+@(user:User)
+@header("Human Information Processing Lab :: Home Page")
 
+<body>
 <!-- Slide Image script -->
 <script> 
 $(document).ready(function(){
@@ -45,23 +33,19 @@ $(document).ready(function(){
 });
 </script>
 <!-- Title -->    
-<title>Human Information Processing Lab :: Home Page</title>
-</head>
 
-<body>
 
 <!-- Page Header -->
-<center>
 
-  <h3 style="color:#34495E; background:#BDC3C7; padding:20px 100px">Human Information Processing Lab</h3>
+  <h3 class="hipTitle"align="center" >Human Information Processing Lab</h3>
  <!-- Page Header Menu-->
-  <h6 style="font-size:large; font-family:Tahoma, 'Microsoft Sans Serif', AngsanaUPC, CordiaUPC">
+  <h6 align="center" class="topMenu">
        <a href="#">หน้าแรก</a>&nbsp; | &nbsp;
        <a href="about_hip.html">เกี่่ยวกับ HIP Lab</a>&nbsp; | &nbsp;
        <a href="#">ผลการทดลอง</a>
   </h6>
   <!-- Dashed line-->
-  <h4 style="color:34495E;; padding:0px 100px 0px 0px; border-color:#BDC3C7; border-bottom-style:dashed;"></h4>
+  <div class="titleLine"></div>
 
 <br>
 <!-- Image Slide Menu -->
@@ -115,7 +99,7 @@ $(document).ready(function(){
     <div style="alignment-adjust:central">
 <table align="center">
 <tr>
-<td>    <a href="sternberg_search_info.html"><img src="@routes.Assets.at("images/sternberg_search.png")" style="padding:0px 50px 0px 50px; width:80px; height:80px; border-width:0px"></a> </td>
+<td> <a href="sternberg_search_info.html"><img src="@routes.Assets.at("images/sternberg_search.png")" style="padding:0px 50px 0px 50px; width:80px; height:80px; border-width:0px"></a> </td>
 <td>    <a href="brown_peterson_info.html"><img src="@routes.Assets.at("images/brown_peterson.png")" style="padding:0px 50px 0px 50px; width:80px; height:80px; border-width:0px"></a></td>
 </tr>
 <tr>
@@ -144,11 +128,6 @@ $(document).ready(function(){
 </div>
   
 <br>
-<h6 id="footLine" ></h6>
-<div id="footDiv">
-<h5> Thammasat University</h5> <br>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+@footer()
 
-
-</center>
-</body>
-</html>
