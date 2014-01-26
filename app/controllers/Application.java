@@ -14,9 +14,19 @@ public class Application extends Controller {
     public static Result perceptionSignalDetection(){
         return ok(views.html.signal_detection_info.render());
     }
+    public static Result perceptionChangeBlindnessIframe(){
+        return ok(change_blindness_iframe.render());
+    }
 
-    public static Result perceptioniChangeBlindness(){
+    public static Result perceptionChangeBlindnessProcIframe(){
+        return ok(change_blindness_proc_iframe.render());
+    }
+    public static Result perceptionChangeBlindness(){
         return ok(views.html.change_blindness_info.render());
+    }
+
+    public static Result perceptionChangeBlindnessProc(){
+        return ok(views.html.change_blindness_proc.render());
     }
 
     public static Result home(){
