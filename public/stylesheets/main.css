@@ -46,6 +46,16 @@ width:631px;
 .marginWord{
     margin: 15px auto 30px 40px;
 }
+/*-----------------------Animation ------------------------------------------------------------*/
+.animation{
+    background:white;
+    -webkit-animation:test 1s infinite;
+}
+
+@-webkit-keyframes test{
+    form{background:white;}
+    to{background:gray;}
+}
 /*---------------------home -------------------------------------------------------------------*/
 
 .homeMenu1{
@@ -111,6 +121,31 @@ width:631px;
      margin: 50px auto 50px auto;
      
 }
+.procContent{
+     width:900px;
+     height:350px;
+     margin-top: 50px;
+}
+.procBody{
+     width:900px;
+     height:500px;
+     margin:auto;
+}
+.procButtonContainer{
+     width:900px;
+     height:200px;
+     margin-top:1em;
+}
+.procButtonGreen{
+     width:300px;
+     float:left;
+     margin-left:70px;
+}
+.procButtonRed{
+     width:150px;
+     float:left;
+     margin-left:300px;
+}
 .infoContent{
      float:left;
      width:450px;
@@ -132,6 +167,9 @@ width:631px;
      padding-right:1em;
      background-color:#ECF0F1;
      font-family:Tahoma, 'Microsoft Sans Serif', AngsanaUPC, CordiaUPC;
+}
+.procNotification{
+     color:#CC3300;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .hipTitle{

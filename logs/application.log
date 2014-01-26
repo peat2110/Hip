@@ -300,3 +300,183 @@ Application started (Dev)
 2014-01-26 18:37:50,572 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
+2014-01-26 18:41:40,480 - [INFO] - from play in play-internal-execution-context-9 
+Application started (Dev)
+
+2014-01-26 18:42:29,242 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6h3pl0fgb - Internal server error, for (GET) [/STMBtProc] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method apply: (title: String)play.api.templates.HtmlFormat.Appendable in object header.
+Unspecified value parameter title.]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2014-01-26 18:42:44,730 - [INFO] - from play in play-internal-execution-context-9 
+Application started (Dev)
+
+2014-01-26 18:43:36,949 - [INFO] - from play in play-internal-execution-context-13 
+Application started (Dev)
+
+2014-01-26 18:45:18,043 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:45:42,045 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:46:18,615 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:49:27,528 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:49:58,494 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:50:22,671 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:50:43,905 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:51:03,514 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:51:15,728 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2014-01-26 18:54:54,421 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2014-01-26 21:28:49,089 - [INFO] - from play in play-internal-execution-context-30 
+Application started (Dev)
+
+2014-01-26 21:32:37,049 - [INFO] - from play in play-internal-execution-context-30 
+Application started (Dev)
+
+2014-01-26 21:36:34,698 - [INFO] - from play in play-internal-execution-context-30 
+Application started (Dev)
+
+2014-01-26 21:39:11,707 - [INFO] - from play in play-internal-execution-context-39 
+Application started (Dev)
+
+2014-01-26 21:44:14,465 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 21:45:32,247 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 21:50:04,146 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 21:51:53,845 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 21:52:23,480 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 21:58:45,345 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 22:03:18,917 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 22:04:04,770 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 22:06:48,959 - [INFO] - from play in play-internal-execution-context-41 
+Application started (Dev)
+
+2014-01-26 22:07:12,096 - [INFO] - from play in play-internal-execution-context-52 
+Application started (Dev)
+
+2014-01-26 22:11:27,518 - [INFO] - from play in play-internal-execution-context-54 
+Application started (Dev)
+
+2014-01-26 22:12:35,332 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2014-01-26 22:13:08,050 - [INFO] - from play in play-internal-execution-context-58 
+Application started (Dev)
+
+2014-01-26 22:14:41,721 - [INFO] - from play in play-internal-execution-context-62 
+Application started (Dev)
+
+2014-01-26 22:15:00,859 - [INFO] - from play in play-internal-execution-context-63 
+Application started (Dev)
+
+2014-01-26 22:16:41,146 - [INFO] - from play in play-internal-execution-context-63 
+Application started (Dev)
+
+2014-01-26 22:19:13,405 - [INFO] - from play in play-internal-execution-context-63 
+Application started (Dev)
+
+2014-01-26 22:19:42,658 - [INFO] - from play in play-internal-execution-context-69 
+Application started (Dev)
+
+2014-01-26 22:19:57,760 - [INFO] - from play in play-internal-execution-context-70 
+Application started (Dev)
+
+2014-01-26 22:20:52,358 - [INFO] - from play in play-internal-execution-context-70 
+Application started (Dev)
+
+2014-01-26 22:25:26,471 - [INFO] - from play in play-internal-execution-context-70 
+Application started (Dev)
+
+2014-01-26 22:35:46,783 - [INFO] - from play in play-internal-execution-context-77 
+Application started (Dev)
+
+2014-01-26 22:37:08,030 - [INFO] - from play in play-internal-execution-context-80 
+Application started (Dev)
+
+2014-01-26 22:43:48,790 - [INFO] - from play in play-internal-execution-context-81 
+Application started (Dev)
+
+2014-01-26 22:48:44,306 - [INFO] - from play in play-internal-execution-context-81 
+Application started (Dev)
+
+2014-01-26 22:52:41,563 - [INFO] - from play in play-internal-execution-context-84 
+Application started (Dev)
+
+2014-01-26 22:54:03,245 - [INFO] - from play in play-internal-execution-context-89 
+Application started (Dev)
+
+2014-01-26 22:54:34,225 - [INFO] - from play in play-internal-execution-context-89 
+Application started (Dev)
+
+2014-01-26 22:57:34,774 - [INFO] - from play in play-internal-execution-context-91 
+Application started (Dev)
+
+2014-01-26 22:59:36,789 - [INFO] - from play in play-internal-execution-context-94 
+Application started (Dev)
+
+2014-01-26 23:00:58,645 - [INFO] - from play in play-internal-execution-context-98 
+Application started (Dev)
+
+2014-01-26 23:20:10,092 - [INFO] - from play in play-internal-execution-context-99 
+Application started (Dev)
+
+2014-01-26 23:25:24,328 - [INFO] - from play in play-internal-execution-context-99 
+Application started (Dev)
+
+2014-01-26 23:25:41,144 - [INFO] - from play in play-internal-execution-context-99 
+Application started (Dev)
+

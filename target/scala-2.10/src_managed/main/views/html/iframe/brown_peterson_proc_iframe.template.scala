@@ -26,51 +26,26 @@ object brown_peterson_proc_iframe extends BaseScalaTemplate[play.api.templates.H
     def apply():play.api.templates.HtmlFormat.Appendable = {
         _display_ {
 
-Seq[Any](format.raw/*1.1*/("""<html>
-<head>
-<meta http-equiv="Content-Language" content="th" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-<meta http-equiv="content-Type" content="text/html; charset=window-874"> 
-<meta http-equiv="content-Type" content="text/html; charset=tis-620"> 
-<!-- CSS link -->
-    <link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\demo.css">
- 	<link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\docs.css">
- 	<link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\flat-ui.css">
- 	<link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\scrollbar.css">
-<!-- Title -->    
-<title>Human Information Processing Lab :: Login</title>
-
-</head>
-
+Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: Home Page"))),format.raw/*1.57*/("""
 <body>
 
 <!-- Page Header -->
-<div style="background-color:#ECF0F1; font-family:Tahoma, 'Microsoft Sans Serif', AngsanaUPC, CordiaUPC" >
-
-<br>
-<p>Brown-Peterson Task ศึกษาเรื่องความสามารถในการจำข้อมูลรูปแบบต่าง ๆ เช่น อักษรไร้ความหมาย คำ ตัวเลข สี รูป โดยมีกระบวนการทางความคิดอื่น ๆ เข้ามารบกวน เช่น การคำนวณตัวเลข
-</p>
-
-<br><br>
-<div style="font-size:15px">
-<p>อ้างอิง</p>
-
-<ul>
-Peterson, L. R. and Peterson, M. J. (1959). Short-Term Retention of Individual Verbal Items. Journal of Experimental Psychology, 58 (3), pp.193-198.</ul>
-
-
+<div class="iframeContent" >
+    <p><u>Brown – Peterson Task</u></p>
+    <p>การทดลองนี้จะทดสอบความทรงจำระยะสั้น โดยมีขั้นตอนดังนี้</p>
+    <ol>
+    <li> โจทย์กำหนดคำมาให้ซึ่งอาจจะมีความหมายหรือไม่ก็ได้ </li>
+    <li>  โจทย์จะหายไป </li>
+    <li>  มีตัวเลขปรากฏขึ้นมา 1 ตัว  </li>
+    <li>  ตัวเลขนั้นจะหายไป  </li>
+    <li>  ให้ท่านนับถอยหลังทีละ 3 ทุก ๆ ครั้งที่แฟลชขึ้น  (เช่น 20 , 17 ,14 ,11 , 8) จนกว่าจะมีช่องคำตอบ </li>
+    <li>  เมื่อช่องคำตอบปรากฏขึ้นมา 2 ช่อง ให้ท่านตอบทั้งคำในข้างต้น และตัวเลขสุดท้ายที่นับได้ </li>
+    </ol>
 </div>
 
-<br>
-
-
-
-
-
-
-
 </body>
-</html>"""))}
+</html>
+"""))}
     }
     
     def render(): play.api.templates.HtmlFormat.Appendable = apply()
@@ -82,11 +57,11 @@ Peterson, L. R. and Peterson, M. J. (1959). Short-Term Retention of Individual V
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Jan 26 18:27:50 ICT 2014
+                    DATE: Sun Jan 26 22:59:35 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/iframe/brown_peterson_proc_iframe.scala.html
-                    HASH: ace69f658437f9a4f5793e61722e7b03a29c9ed8
-                    MATRIX: 883->0
-                    LINES: 29->1
+                    HASH: 1ea34f47f23cf42e72b145dc3ee37a94657af9a6
+                    MATRIX: 892->1|968->56
+                    LINES: 29->1|29->1
                     -- GENERATED --
                 */
             

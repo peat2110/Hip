@@ -26,65 +26,38 @@ object brown_peterson_proc extends BaseScalaTemplate[play.api.templates.HtmlForm
     def apply():play.api.templates.HtmlFormat.Appendable = {
         _display_ {
 
-Seq[Any](format.raw/*1.1*/("""<html>
-<head>
-<meta http-equiv="Content-Language" content="th" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-<meta http-equiv="content-Type" content="text/html; charset=window-874"> 
-<meta http-equiv="content-Type" content="text/html; charset=tis-620"> 
-<!-- CSS link -->
-    <link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\demo.css">
- 	<link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\docs.css">
- 	<link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\flat-ui.css">
- 	<link rel="stylesheet" type="text/css" href="..\Flat-UI-master\css\scrollbar.css">
-<!-- Title -->    
-<title>Human Information Processing Lab :: Brown-Peterson</title>
-
-</head>
-
-<body>
+Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: Home Page"))),format.raw/*1.57*/("""
+<body class="animation">
 
 <!-- Page Header -->
-<center>
-
-  <h3 style="color:#34495E; background:#BDC3C7; padding:20px 100px">Human Information Processing Lab</h3>
-  <h6 style="font-size:large; font-family:Tahoma, 'Microsoft Sans Serif', AngsanaUPC, CordiaUPC">
-       <a href="home.html">หน้าแรก</a>&nbsp; | &nbsp;
-       <a href="about_hip.html">เกี่่ยวกับ HIP Lab</a>&nbsp; | &nbsp;
-       <a href="#">ผลการทดลอง</a>
-  </h6>
-  <!-- Dashed line-->
-  <h4 style="color:34495E;; padding:0px 100px 0px 0px; border-color:#BDC3C7; border-bottom-style:dashed;"></h4>
-
+    <div class="">
+          <h3 class="hipTitle"align="center" >Human Information Processing Lab</h3>
+         <!-- Page Header Menu-->
+          <h6 align="center" class="topMenu">
+               <a href="#">หน้าแรก</a>&nbsp; | &nbsp;
+               <a href="about_hip.html">เกี่่ยวกับ HIP Lab</a>&nbsp; | &nbsp;
+               <a href="#">ผลการทดลอง</a>
+          </h6>
+          <!-- Dashed line-->
+          <div class="titleLine"></div>
+    </div>
 
 <!-- Content -->
-
-<table>
-<tr>
-<td><iframe src="STMBtProcIframe" frameborder="0" width="750" height="350"></iframe></td></tr>
-
-<tr>
-<td align="right">
-<br><a href="brown_peterson_info.html" class="btn btn-block btn-lg btn-danger" style="padding:10px 5px"><span class="fui-arrow-left"></span> ย้อนกลับ</a>  &nbsp; 
-          <a href="#fakelink" class="btn btn-block btn-lg btn-success" style="padding:10px 80px"><span class="fui-play"></span>&nbsp; เริ่มการทดลอง</a>
-<br>
-</td>
-</tr>
-</table>
-
-
-
-
-<!-- Footer -->
-<br>
-<h4 style="color:#34495E; padding:10px 100px; border-color:#BDC3C7; border-top-style:dashed;"></h4>
-<div style="color:#34495E; background:#BDC3C7; padding:20px 100px">
-<normal >Department of Computer Science</normal> <br>
-<small >Faculty of Science and Technology, Thammasat University</small> <br>
-
-
-</body>
-</html>
+<div class="procNotification">
+    <h6 align="center"> ผลการทดลองที่ได้ไม่ได้ระบุถึงความสามารถหรือIQแต่แสดงให้เห็นว่าการประมวลสารสนเทศของมนุษย์สามารถได้รับอิทธิพลจากสิ่งเร้าหลายรูปแบบ </h6>
+</div> 
+<div class="procBody">
+        <iframe src="STMBtProcIframe" class="procContent" frameborder="0" ></iframe>
+    <div class="procButtonContainer">
+         <div class="procButtonRed">
+             <a href="STMBt" class="btn btn-block btn-lg btn-danger" ><span class="fui-arrow-left"></span> ย้อนกลับ</a>  &nbsp; 
+         </div>
+         <div class="procButtonGreen">
+             <a href="#fakelink" class="btn btn-block btn-lg btn-success" ><span class="fui-play"></span>&nbsp; เริ่มการทดลอง</a>
+         </div>
+    </div>
+</div>
+"""),_display_(Seq[Any](/*32.2*/footer())),format.raw/*32.10*/("""
 """))}
     }
     
@@ -97,11 +70,11 @@ Seq[Any](format.raw/*1.1*/("""<html>
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Jan 26 18:37:40 ICT 2014
+                    DATE: Sun Jan 26 23:25:39 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_proc.scala.html
-                    HASH: 4ab2a26800f5cbe99fab0ddfb3dfffbadb2bef02
-                    MATRIX: 869->0
-                    LINES: 29->1
+                    HASH: fc7e1dbbb1209ad14c6b2a9d17160e2921d830cd
+                    MATRIX: 878->1|954->56|2270->1337|2300->1345
+                    LINES: 29->1|29->1|60->32|60->32
                     -- GENERATED --
                 */
             
