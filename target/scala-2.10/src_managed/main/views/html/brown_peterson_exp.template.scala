@@ -44,18 +44,20 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 </div>
 <div class="rabbitContainer">
   <div id="hopRabbit"class="rabbit"></div>
-  <div id="counter" class="questionWord" align="center"></div>
+  <div id="counter" class="counterText" align="center"></div>
 </div>
 <div class="answerBox">
     <h5> คำตอบ </h5>
         <form>
-          <input id = "text1" type="text" placeholder="คำที่ 1" disabled />
-          <input id = "text2" type="text" placeholder="คำที่ 2" disabled />  
-          <input id = "text3" type="text" placeholder="คำที่ 3" disabled />
-          <input id = "submitButton" type="submit" disabled />
+          <input class="inputBox" id = "text1" type="text" placeholder="      คำตอบ" disabled />
+          <input class="inputBox" id = "text2" type="text" placeholder="      คำตอบ" disabled />  
+          <input class="inputBox"id = "text3" type="text" placeholder="      คำตอบ" disabled />
+          <input class="inputNumberBox" id = "text4" type="text" disabled />
+
+          <input type="submit" class="btn btn-success" disabled value="Submit"/>
         </form>
 </div>
-"""),_display_(Seq[Any](/*30.2*/footer())),format.raw/*30.10*/("""
+"""),_display_(Seq[Any](/*32.2*/footer())),format.raw/*32.10*/("""
 """))}
     }
     
@@ -68,11 +70,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Jan 28 17:37:44 ICT 2014
+                    DATE: Tue Jan 28 19:12:14 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_exp.scala.html
-                    HASH: ae2f00084ff80b8a16fb1c2461c9f2bf87e30005
-                    MATRIX: 877->1|953->56|1987->1055|2017->1063
-                    LINES: 29->1|29->1|58->30|58->30
+                    HASH: a990082d3dc07df97e50c10bb574c28a0c9bffab
+                    MATRIX: 877->1|953->56|2144->1212|2174->1220
+                    LINES: 29->1|29->1|60->32|60->32
                     -- GENERATED --
                 */
             
