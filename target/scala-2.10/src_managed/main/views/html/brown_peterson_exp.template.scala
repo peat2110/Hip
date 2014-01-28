@@ -37,15 +37,25 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
     </div>
 
 <!-- Content -->
+<div class="questionBox">
+      <div align="center" class="questionWord" id="word1">1234567890</div>
+      <div align="center" class="questionWord" id="word2">123</div>
+      <div align="center" class="questionWord" id="word3">123456</div>
+</div>
+<div class="rabbitContainer">
+  <div id="hopRabbit"class="rabbit"></div>
+  <div id="counter" class="questionWord" align="center"></div>
+</div>
 <div class="answerBox">
     <h5> คำตอบ </h5>
         <form>
-          <input type="text" placeholder="คำที่ 1" disabled />
-          <input type="text" placeholder="คำที่ 2" disabled />  
-          <input type="text" placeholder="คำที่ 3" disabled />
+          <input id = "text1" type="text" placeholder="คำที่ 1" disabled />
+          <input id = "text2" type="text" placeholder="คำที่ 2" disabled />  
+          <input id = "text3" type="text" placeholder="คำที่ 3" disabled />
+          <input id = "submitButton" type="submit" disabled />
         </form>
 </div>
-"""),_display_(Seq[Any](/*20.2*/footer())),format.raw/*20.10*/("""
+"""),_display_(Seq[Any](/*30.2*/footer())),format.raw/*30.10*/("""
 """))}
     }
     
@@ -58,11 +68,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Jan 27 16:52:04 ICT 2014
+                    DATE: Tue Jan 28 17:37:44 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_exp.scala.html
-                    HASH: e48cddf5b6f75bc9ae639ca9fc4753a0f771db02
-                    MATRIX: 877->1|953->56|1495->563|1525->571
-                    LINES: 29->1|29->1|48->20|48->20
+                    HASH: ae2f00084ff80b8a16fb1c2461c9f2bf87e30005
+                    MATRIX: 877->1|953->56|1987->1055|2017->1063
+                    LINES: 29->1|29->1|58->30|58->30
                     -- GENERATED --
                 */
             

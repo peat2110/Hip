@@ -1,103 +1,111 @@
-2014-01-27 14:42:00,348 - [INFO] - from play in pool-4-thread-1 
+2014-01-28 15:10:45,270 - [INFO] - from play in pool-4-thread-4 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2014-01-27 14:54:12,919 - [INFO] - from play in play-internal-execution-context-1 
+2014-01-28 15:11:10,311 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2014-01-27 14:57:14,174 - [INFO] - from play in play-internal-execution-context-2 
+2014-01-28 15:25:13,605 - [INFO] - from play in play-internal-execution-context-2 
 Application started (Dev)
 
-2014-01-27 15:17:44,713 - [ERROR] - from application in New I/O worker #8 
-
-
-! @6h4615bn6 - Internal server error, for (GET) [/STMBtProc] ->
-
-play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.1]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
-
-2014-01-27 15:18:09,349 - [ERROR] - from application in New I/O worker #6 
-
-
-! @6h4616m91 - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.1]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.1]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
-
-2014-01-27 15:18:25,175 - [INFO] - from play in play-internal-execution-context-4 
+2014-01-28 15:28:12,980 - [INFO] - from play in play-internal-execution-context-2 
 Application started (Dev)
 
-2014-01-27 15:19:28,630 - [INFO] - from play in play-internal-execution-context-4 
+2014-01-28 15:37:00,972 - [INFO] - from play in play-internal-execution-context-5 
 Application started (Dev)
 
-2014-01-27 15:21:33,265 - [INFO] - from play in play-internal-execution-context-5 
+2014-01-28 15:51:57,427 - [INFO] - from play in play-internal-execution-context-5 
 Application started (Dev)
 
-2014-01-27 16:20:31,884 - [INFO] - from play in play-internal-execution-context-5 
+2014-01-28 15:57:04,800 - [INFO] - from play in play-internal-execution-context-5 
 Application started (Dev)
 
-2014-01-27 16:22:23,538 - [INFO] - from play in play-internal-execution-context-8 
+2014-01-28 16:03:02,708 - [INFO] - from play in play-internal-execution-context-5 
 Application started (Dev)
 
-2014-01-27 16:24:36,055 - [INFO] - from play in play-internal-execution-context-8 
+2014-01-28 16:05:29,178 - [INFO] - from play in play-internal-execution-context-12 
 Application started (Dev)
 
-2014-01-27 16:30:00,848 - [INFO] - from play in play-internal-execution-context-8 
+2014-01-28 16:05:51,316 - [INFO] - from play in play-internal-execution-context-12 
 Application started (Dev)
 
-2014-01-27 16:30:34,370 - [INFO] - from play in play-internal-execution-context-11 
+2014-01-28 16:06:14,386 - [INFO] - from play in play-internal-execution-context-12 
 Application started (Dev)
 
-2014-01-27 16:31:18,687 - [INFO] - from play in play-internal-execution-context-11 
+2014-01-28 16:07:25,052 - [INFO] - from play in play-internal-execution-context-17 
 Application started (Dev)
 
-2014-01-27 16:35:04,371 - [INFO] - from play in play-internal-execution-context-13 
+2014-01-28 16:09:11,797 - [INFO] - from play in play-internal-execution-context-17 
 Application started (Dev)
 
-2014-01-27 16:44:53,824 - [INFO] - from play in play-internal-execution-context-19 
+2014-01-28 16:34:24,224 - [INFO] - from play in play-internal-execution-context-19 
 Application started (Dev)
 
-2014-01-27 16:51:22,278 - [INFO] - from play in play-internal-execution-context-25 
+2014-01-28 16:35:34,126 - [INFO] - from play in play-internal-execution-context-21 
 Application started (Dev)
 
-2014-01-27 16:52:05,153 - [INFO] - from play in play-internal-execution-context-25 
+2014-01-28 16:37:05,580 - [INFO] - from play in play-internal-execution-context-21 
 Application started (Dev)
 
-2014-01-27 16:55:27,932 - [INFO] - from play in play-internal-execution-context-25 
+2014-01-28 16:38:35,481 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2014-01-28 16:40:01,322 - [INFO] - from play in play-internal-execution-context-24 
+Application started (Dev)
+
+2014-01-28 16:41:49,211 - [INFO] - from play in play-internal-execution-context-27 
+Application started (Dev)
+
+2014-01-28 16:48:28,519 - [INFO] - from play in play-internal-execution-context-27 
+Application started (Dev)
+
+2014-01-28 16:54:05,458 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 16:56:03,404 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 16:56:30,496 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 16:57:01,823 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 17:06:24,601 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 17:08:25,191 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 17:09:25,839 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 17:09:57,055 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2014-01-28 17:11:02,220 - [INFO] - from play in play-internal-execution-context-47 
+Application started (Dev)
+
+2014-01-28 17:11:51,959 - [INFO] - from play in play-internal-execution-context-47 
+Application started (Dev)
+
+2014-01-28 17:12:34,242 - [INFO] - from play in play-internal-execution-context-47 
+Application started (Dev)
+
+2014-01-28 17:13:41,143 - [INFO] - from play in play-internal-execution-context-50 
+Application started (Dev)
+
+2014-01-28 17:14:03,216 - [INFO] - from play in play-internal-execution-context-51 
+Application started (Dev)
+
+2014-01-28 17:14:33,621 - [INFO] - from play in play-internal-execution-context-51 
+Application started (Dev)
+
+2014-01-28 17:20:11,831 - [INFO] - from play in play-internal-execution-context-61 
+Application started (Dev)
+
+2014-01-28 17:37:13,068 - [INFO] - from play in play-internal-execution-context-76 
+Application started (Dev)
+
+2014-01-28 17:37:46,213 - [INFO] - from play in play-internal-execution-context-76 
 Application started (Dev)
 

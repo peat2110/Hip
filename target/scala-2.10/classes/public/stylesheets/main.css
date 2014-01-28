@@ -178,13 +178,36 @@ width:631px;
 .procNotification{
      color:#CC3300;
 }
-/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------Experiment Page------------------------------------------------------------------------------------------------------*/
+.rabbitContainer{
+    width:200px;
+    height:100px;
+    margin:auto;
+}
+.questionBox{
+    width:60em;
+    height:50px;
+    font-size:20px;
+    margin:auto;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+.textBox{
+    width:800px;
+    height:50px;
+}
+.questionWord{
+    float:left;
+    width:7em;
+    height:50px;
+    font-size:40px;
+    margin-left:2em;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
 .hipTitle{
     color:#34495E;
     background:#BDC3C7;
     padding:20px 100px;
-    
-    
 }
 .titleLine{
     color:#34495E;
