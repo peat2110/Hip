@@ -14,6 +14,7 @@ GET     /STMBtProc                  controllers.BrownPeterson.renderShortTermMem
 GET     /STMBtProcIframe            controllers.BrownPeterson.renderShortTermMemoryBrownPetersonTaskProcIframe()
 GET     /STMBt                      controllers.BrownPeterson.renderShortTermMemoryBrownPetersonTask()
 GET     /STMBtIframe                controllers.BrownPeterson.renderShortTermMemoryBrownPetersonTaskIframe()
+GET     /STMBtExp                   controllers.BrownPeterson.renderShortTermMemoryBrownPetersonTaskExp()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

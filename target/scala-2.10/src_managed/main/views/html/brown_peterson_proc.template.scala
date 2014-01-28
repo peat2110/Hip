@@ -27,7 +27,7 @@ object brown_peterson_proc extends BaseScalaTemplate[play.api.templates.HtmlForm
         _display_ {
 
 Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: Home Page"))),format.raw/*1.57*/("""
-<body class="animation">
+<body>
 
 <!-- Page Header -->
     <div class="">
@@ -53,7 +53,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
              <a href="STMBt" class="btn btn-block btn-lg btn-danger" ><span class="fui-arrow-left"></span> ย้อนกลับ</a>  &nbsp; 
          </div>
          <div class="procButtonGreen">
-             <a href="#fakelink" class="btn btn-block btn-lg btn-success" ><span class="fui-play"></span>&nbsp; เริ่มการทดลอง</a>
+             <a href="STMBtExp" class="btn btn-block btn-lg btn-success" ><span class="fui-play"></span>&nbsp; เริ่มการทดลอง</a>
          </div>
     </div>
 </div>
@@ -70,10 +70,10 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Jan 26 23:25:39 ICT 2014
+                    DATE: Mon Jan 27 15:17:29 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_proc.scala.html
-                    HASH: fc7e1dbbb1209ad14c6b2a9d17160e2921d830cd
-                    MATRIX: 878->1|954->56|2270->1337|2300->1345
+                    HASH: efc8e3a391157d90c6456bd8902827202dc45802
+                    MATRIX: 878->1|954->56|2251->1318|2281->1326
                     LINES: 29->1|29->1|60->32|60->32
                     -- GENERATED --
                 */

@@ -20,4 +20,7 @@ public class BrownPeterson extends Controller {
         public static Result renderShortTermMemoryBrownPetersonTaskProcIframe(){
             return ok(brown_peterson_proc_iframe.render());
         }
+        public static Result renderShortTermMemoryBrownPetersonTaskExp(){
+            return ok(brown_peterson_exp.render());
+        }
 }

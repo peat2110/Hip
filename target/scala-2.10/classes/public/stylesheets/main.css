@@ -56,6 +56,13 @@ width:631px;
     form{background:white;}
     to{background:gray;}
 }
+
+.answerBox{
+    margin:auto;
+    margin-bottom:2em;
+    height:82px;
+    width:720px;
+}
 /*---------------------home -------------------------------------------------------------------*/
 
 .homeMenu1{
