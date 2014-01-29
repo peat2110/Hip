@@ -94,8 +94,8 @@ width:631px;
 .divPngInfo{
      margin-left: 14px ;
      padding:15px 50px 15px 50px;
-     width:220px;
-     height:140px;
+     width:70%;
+     height:60%;
      border-width:0px;
 
 }
@@ -108,7 +108,7 @@ width:631px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .infoContainer{
-     width:900px;
+     width:950px;
      height:350px;
      margin: 50px auto 50px auto;
      
@@ -125,7 +125,7 @@ width:631px;
 }
 .procButtonContainer{
      width:900px;
-     height:200px;
+     height:100px;
      margin-top:1em;
 }
 .procButtonGreen{
@@ -146,8 +146,7 @@ width:631px;
 
 .infoButton{
      float:left;
-     margin-left: 30px;
-     width:250px;
+     width:450px;
      height:350px;
 }
     
@@ -161,7 +160,24 @@ width:631px;
      font-family:Tahoma, 'Microsoft Sans Serif', AngsanaUPC, CordiaUPC;
 }
 .procNotification{
+     margin-left:1em;
+     margin-right:1em;
      color:#CC3300;
+}
+.infoButtonContainer{
+    position:relative;
+    bottom:10px;
+    right:-35px;
+    width:450px;
+}
+.infoRedButton{
+    float:left;
+    width:130px;
+}
+.infoGreenButton{
+    float:left;
+    margin-left: 25px;
+    width:250px;
 }
 /*-------------------------------------Experiment Page------------------------------------------------------------------------------------------------------*/
 .answerBox{
@@ -273,3 +289,30 @@ height:4em;
 .center{
 padding-top:8em;
 }
+
+
+/*-----------------------------------------------*/
+
+
+
+.sbutton {
+
+  
+  text-align: center;
+  border-radius:4px;
+  text-decoration: none;
+  background: #69c773;
+  background-color: rgb(105, 199, 115);
+  -webkit-box-shadow: 0 4px 0 0 #51a65f;
+  -moz-box-shadow: 0 4px 0 0 #51a65f;
+  box-shadow: 0 4px 0 0 #51a65f;
+  font-size: 20px !important;
+  padding: 15px 20px;
+  width: 250px;
+  color: #FFF;
+}
+.sbutton:hover {
+  color: #51A65F;
+}
+
+

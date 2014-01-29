@@ -66,7 +66,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab"))),
 <!-- Login Right Panel : Login Button -->           
           <br> 
                      
-           <button class="btn" type="submit"> 
+           <button class="btn btn-block btn-lg btn-success" type="submit"> 
             Login
             </button> 
             </form>
@@ -85,10 +85,10 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab"))),
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Jan 28 19:07:02 ICT 2014
+                    DATE: Tue Jan 28 20:45:29 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/index.scala.html
-                    HASH: 67d994c04538e1e6427fae66f326e38b9eed820e
-                    MATRIX: 864->1|927->43|1252->332|1267->338|1318->367|1764->777|1779->783|1820->802|2757->1704|2787->1712
+                    HASH: ffc2d8865592aa4e6c7413258be3231bfb755d43
+                    MATRIX: 864->1|927->43|1252->332|1267->338|1318->367|1764->777|1779->783|1820->802|2786->1733|2816->1741
                     LINES: 29->1|29->1|42->14|42->14|42->14|54->26|54->26|54->26|75->47|75->47
                     -- GENERATED --
                 */

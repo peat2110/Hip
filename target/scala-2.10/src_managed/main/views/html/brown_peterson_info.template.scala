@@ -51,14 +51,23 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
     </div>
     <!-- Right Panel -->  
     <div class="infoButton" >
-        <img src=""""),_display_(Seq[Any](/*26.20*/routes/*26.26*/.Assets.at("images/brown_peterson.png"))),format.raw/*26.65*/("""" class="divPngInfo"><h6 class="marginWord">Brown Peterson</h6>
-    <!-- Buttons -->  
-      
-          <a href=""""),_display_(Seq[Any](/*29.21*/routes/*29.27*/.Application.home())),format.raw/*29.46*/("""" class="btn btn-block btn-lg btn-danger"  ><span class="fui-arrow-left" ></span> ย้อนกลับ</a>  &nbsp; 
-          <a href="STMBtProc" class="btn btn-block btn-lg btn-primary"><span class="fui-arrow-right"></span> อ่านขั้นตอนการทดลอง</a>
+        <div align="center">
+            <img src=""""),_display_(Seq[Any](/*27.24*/routes/*27.30*/.Assets.at("images/brown_peterson.png"))),format.raw/*27.69*/("""" class="divPngInfo">
+            <h6 class="marginWord">Brown Peterson</h6>
+        </div>
+        <!-- Buttons -->  
+            <div class="infoButtonContainer">
+              <div class="infoRedButton">
+                <a href=""""),_display_(Seq[Any](/*33.27*/routes/*33.33*/.Application.home())),format.raw/*33.52*/("""" class=" btn btn-block btn-lg btn-danger"  ><span class="fui-arrow-left" ></span> ย้อนกลับ</a>  &nbsp; 
+              </div>
+
+              <div class="infoGreenButton">
+                <a href="STMBtProc" class=" btn btn-block btn-lg btn-primary"><span class="fui-arrow-right"></span> อ่านขั้นตอนการทดลอง</a>
+              </div>
+            </div>
     </div>
 </div>
-"""),_display_(Seq[Any](/*33.2*/footer())),format.raw/*33.10*/("""
+"""),_display_(Seq[Any](/*42.2*/footer())),format.raw/*42.10*/("""
 """))}
     }
     
@@ -71,11 +80,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Jan 26 23:25:23 ICT 2014
+                    DATE: Wed Jan 29 14:59:57 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_info.scala.html
-                    HASH: 42d01d6efdf9e32666353d5690d2c7a9d00321ea
-                    MATRIX: 878->1|954->56|1769->835|1784->841|1845->880|1998->997|2013->1003|2054->1022|2349->1282|2379->1290
-                    LINES: 29->1|29->1|54->26|54->26|54->26|57->29|57->29|57->29|61->33|61->33
+                    HASH: 3fae83504a9e0046e3f166a6f623de82b433f1e5
+                    MATRIX: 878->1|954->56|1803->869|1818->875|1879->914|2154->1153|2169->1159|2210->1178|2624->1557|2654->1565
+                    LINES: 29->1|29->1|55->27|55->27|55->27|61->33|61->33|61->33|70->42|70->42
                     -- GENERATED --
                 */
             

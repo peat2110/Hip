@@ -52,12 +52,13 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
           <input class="inputBox" id = "text1" type="text" placeholder="      คำตอบ" disabled />
           <input class="inputBox" id = "text2" type="text" placeholder="      คำตอบ" disabled />  
           <input class="inputBox"id = "text3" type="text" placeholder="      คำตอบ" disabled />
-          <input class="inputNumberBox" id = "text4" type="text" disabled />
+          <input class="inputNumberBox" id = "text4" type="text" placeholder="  เลข" disabled />
 
-          <input type="submit" class="btn btn-success" disabled value="Submit"/>
+          <input type="submit" class="sbutton" disabled name="Submit" value="ยืนยัน" />
+
         </form>
 </div>
-"""),_display_(Seq[Any](/*32.2*/footer())),format.raw/*32.10*/("""
+"""),_display_(Seq[Any](/*33.2*/footer())),format.raw/*33.10*/("""
 """))}
     }
     
@@ -70,11 +71,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Jan 28 19:12:14 ICT 2014
+                    DATE: Tue Jan 28 21:47:42 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_exp.scala.html
-                    HASH: a990082d3dc07df97e50c10bb574c28a0c9bffab
-                    MATRIX: 877->1|953->56|2144->1212|2174->1220
-                    LINES: 29->1|29->1|60->32|60->32
+                    HASH: c1f035c127e878ea399f1922a10f086bef7d14c1
+                    MATRIX: 877->1|953->56|2172->1240|2202->1248
+                    LINES: 29->1|29->1|61->33|61->33
                     -- GENERATED --
                 */
             

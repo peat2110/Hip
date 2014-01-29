@@ -1,0 +1,63 @@
+/* Variables */
+$green: #33B679;
+
+@-webkit-keyframes fill {
+  to { width: 100%; }
+}
+@-moz-keyframes fill {
+  to { width: 100%; }
+}
+@-o-keyframes fill {
+  to { width: 100%; }
+}
+@keyframes fill {
+  to { width: 100%; }
+}
+
+/* Button */
+.button {
+  background: green;
+  display: block;
+  height: 60px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 50px auto;
+  position: relative;
+  width: 185px;
+  
+  &:before {
+    color: #FFF;
+    content: attr(name);
+    height: 100%;
+    line-height: 3.1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  &:after {
+    background: rgba(0,0,0,0.15);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 0;
+  }
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.button.animation {
+  &:after {
+    -webkit-animation: fill .5s forwards ease-out;
+    -moz-animation: fill .5s forwards ease-out;
+    -o-animation: fill .5s forwards ease-out;
+    animation: fill .5s forwards ease-out;
+    left: 0;
+    top: 0;
+    z-index: 5;
+  }
+}
