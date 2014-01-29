@@ -28,7 +28,7 @@ object footer extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable
 
 Seq[Any](format.raw/*1.1*/("""<div>
     <div class="footLine"></div>
-    <div class="footDiv"> <h6 align="center"> Thammasat University </h6> </div>
+    <div class="footDiv"> <h6 align="center"> Copyright 2014 &copy; Thammasat University </h6> </div>
 </div>
 </body>
 </html>
@@ -44,9 +44,9 @@ Seq[Any](format.raw/*1.1*/("""<div>
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Jan 21 17:12:16 ICT 2014
+                    DATE: Wed Jan 29 15:37:17 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/footer.scala.html
-                    HASH: 8bc84ebfed1c0ea0a47a0f187592b0cb47ef2ca3
+                    HASH: 06cc53108d9760c23d459c485478d3b8def1b20d
                     MATRIX: 856->0
                     LINES: 29->1
                     -- GENERATED --

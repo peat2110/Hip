@@ -55,12 +55,13 @@ width:631px;
     padding:20px 20px 30px 20px;
     border:none;size:200px 200px;
     margin:auto ;
+    margin-left:1em;
 }
 
 .homeMain{
     height:305px;
-    width:631px;
-    margin:auto ;
+    width:700px;
+    margin:0px auto;
 }
 .divSlideContainer{
     margin:auto;
