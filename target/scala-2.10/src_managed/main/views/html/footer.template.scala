@@ -44,7 +44,7 @@ Seq[Any](format.raw/*1.1*/("""<div>
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Jan 29 15:37:17 ICT 2014
+                    DATE: Wed Jan 29 15:56:33 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/footer.scala.html
                     HASH: 06cc53108d9760c23d459c485478d3b8def1b20d
                     MATRIX: 856->0

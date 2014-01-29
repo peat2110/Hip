@@ -44,10 +44,13 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 </div>
 <div class="rabbitContainer">
   <div id="hopRabbit"class="rabbit"></div>
+  <div id="cloud" class="clouds"></div>
   <div id="counter" class="counterText" align="center"></div>
 </div>
 <div class="answerBox">
-    <h5> คำตอบ </h5>
+    
+  <span class="headerBox">คำตอบ</span>
+  <span class="headerNumberBox">ใส่ตัวเลข</span>
         <form>
           <input class="inputBox" id = "text1" type="text" placeholder="      คำตอบ" disabled />
           <input class="inputBox" id = "text2" type="text" placeholder="      คำตอบ" disabled />  
@@ -55,10 +58,9 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
           <input class="inputNumberBox" id = "text4" type="text" placeholder="  เลข" disabled />
 
           <input type="submit" class="sbutton" disabled name="Submit" value="ยืนยัน" />
-
         </form>
 </div>
-"""),_display_(Seq[Any](/*33.2*/footer())),format.raw/*33.10*/("""
+"""),_display_(Seq[Any](/*35.2*/footer())),format.raw/*35.10*/("""
 """))}
     }
     
@@ -71,11 +73,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/header("Human Information Processing Lab :: H
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Jan 28 21:47:42 ICT 2014
+                    DATE: Wed Jan 29 16:53:42 ICT 2014
                     SOURCE: /home/intouch/Desktop/myProject/hipLab/app/views/brown_peterson_exp.scala.html
-                    HASH: c1f035c127e878ea399f1922a10f086bef7d14c1
-                    MATRIX: 877->1|953->56|2172->1240|2202->1248
-                    LINES: 29->1|29->1|61->33|61->33
+                    HASH: 6115dd5a1132b51e47e0de64ad436347611eb9cc
+                    MATRIX: 877->1|953->56|2283->1351|2313->1359
+                    LINES: 29->1|29->1|63->35|63->35
                     -- GENERATED --
                 */
             

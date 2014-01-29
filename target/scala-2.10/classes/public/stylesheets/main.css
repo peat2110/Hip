@@ -184,13 +184,15 @@ width:631px;
 .answerBox{
     margin:auto;
     margin-bottom:2em;
-    height:120px;
+    height:180px;
     width:1500px;
 }
 
 .rabbitContainer{
-    width:200px;
-    height:100px;
+    width:300px;
+    height:200px;
+    padding-top:1em;
+    padding-right:1em;
     margin:auto;
     margin-top:1em;
     margin-bottom:2em;
@@ -233,6 +235,15 @@ width:631px;
     margin-left:2em; 
 }
 
+.headerBox{
+    font-size: 40px;
+    margin-left:5%;
+}
+
+.headerNumberBox{
+    font-size: 40px;
+    margin-left:832px;
+}
 
 /*-----------------------------------------------------------------------------------------------------------------*/
 .hipTitle{
@@ -298,7 +309,9 @@ padding-top:8em;
 
 .sbutton {
 
-  
+    -webkit-transform: translateY(-8%);
+    -ms-transform: translateY(-8%);
+    transform: translateY(-8%); 
   text-align: center;
   border-radius:4px;
   text-decoration: none;
@@ -313,6 +326,7 @@ padding-top:8em;
   color: #FFF;
 }
 .sbutton:hover {
+  cursor: pointer;
   color: #51A65F;
 }
 
