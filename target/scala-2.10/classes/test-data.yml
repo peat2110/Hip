@@ -1,0 +1,127 @@
+
+# Users
+
+- &5109610123 !!models.User
+    id:       5109610123
+    password:   secret
+
+- &5109650332 !!models.User
+    id:       5109650332
+    password:   secret
+
+- &5209610567 !!models.User
+    id:       5209610567
+    password:   secret
+
+# Questions
+
+- !!models.brownPeterson.Question
+    firstWord:      ABC
+    secondWord:     DEF
+    thirdWord:      GHI
+
+- !!models.brownPeterson.Question
+    firstWord:      JKL
+    secondWord:     MNO
+    thirdWord:      PQR
+
+- !!models.brownPeterson.Question
+    firstWord:      STU
+    secondWord:     VWX
+    thirdWord:      YZ1
+
+- !!models.brownPeterson.Question
+    firstWord:      CAT
+    secondWord:     DOG
+    thirdWord:      RAT
+
+- !!models.brownPeterson.Question
+    firstWord:      LAMBORGHINI
+    secondWord:     FERRARI
+    thirdWord:      MASERATI
+
+- !!models.brownPeterson.Question
+    firstWord:      XYZ
+    secondWord:     ABC
+    thirdWord:      OTM
+
+- !!models.brownPeterson.Question
+    firstWord:      GWTR
+    secondWord:     WLKP
+    thirdWord:      ZYMB
+
+- !!models.brownPeterson.Question
+    firstWord:      COPPER
+    secondWord:     ZINC
+    thirdWord:      IRON
+
+- !!models.brownPeterson.Question
+    firstWord:      NISSAN
+    secondWord:     TOYOTA
+    thirdWord:      HONDA
+
+- !!models.brownPeterson.Question
+    firstWord:      HORSE
+    secondWord:     SHARK
+    thirdWord:      MOUSE
+
+- !!models.brownPeterson.Question
+    firstWord:      FIRST
+    secondWord:     SECOND
+    thirdWord:      THIRD
+
+- !!models.brownPeterson.Question
+    firstWord:      FOOTBALL
+    secondWord:     WORLD
+    thirdWord:      CUP
+
+# ExperimentSchedules
+
+- !!models.ExperimentSchedule
+    name:      Blank experiment
+    noOfTrial:     3
+    startDate:      2013-11-11
+    expireDate:     2014-11-11
+    experimentType: BROWNPETERSON
+
+- !!models.ExperimentSchedule
+    name:      Blank experiment
+    noOfTrial:     3
+    startDate:      2013-11-11
+    expireDate:     2014-11-11
+    experimentType: BROWNPETERSON
+
+- !!models.ExperimentSchedule
+    name:      Blank experiment
+    noOfTrial:     3
+    startDate:      2013-11-11
+    expireDate:     2014-11-11
+    experimentType: BROWNPETERSON
+
+# Trial
+
+- !!models.brownPeterson.Trial
+    trigramType:     WORD
+    trigramLanguage: ENGLISH
+
+- !!models.brownPeterson.Trial
+    trigramType:     WORD
+    trigramLanguage: ENGLISH
+
+- !!models.brownPeterson.Trial
+    trigramType:     WORD
+    trigramLanguage: ENGLISH
+
+# Quiz
+
+- !!models.brownPeterson.Quiz
+    countdown:     567
+    flashTime: 5
+
+- !!models.brownPeterson.Quiz
+    countdown:     567
+    flashTime: 5
+
+- !!models.brownPeterson.Quiz
+    countdown:     567
+    flashTime: 5

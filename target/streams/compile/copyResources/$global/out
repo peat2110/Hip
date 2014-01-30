@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/application.conf,/Users/keepluck/HipLocal/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/evolutions,/Users/keepluck/HipLocal/target/scala-2.10/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/initial-data.yml,/Users/keepluck/HipLocal/target/scala-2.10/classes/initial-data.yml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/routes,/Users/keepluck/HipLocal/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/test-data.yml,/Users/keepluck/HipLocal/target/scala-2.10/classes/test-data.yml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/evolutions/default,/Users/keepluck/HipLocal/target/scala-2.10/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/keepluck/HipLocal/conf/evolutions/default/1.sql,/Users/keepluck/HipLocal/target/scala-2.10/classes/evolutions/default/1.sql)[0m
