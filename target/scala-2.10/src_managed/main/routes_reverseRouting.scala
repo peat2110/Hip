@@ -1,6 +1,6 @@
 // @SOURCE:/Users/keepluck/HipLocal/conf/routes
-// @HASH:ede59803257b45b0da89738ade6e7983be146067
-// @DATE:Thu Jan 30 15:19:54 ICT 2014
+// @HASH:15f3f95b5d35dd55641c24acdf9d533fc6e08fe7
+// @DATE:Sat Feb 01 00:27:17 ICT 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,7 +13,8 @@ import play.libs.F
 import Router.queryString
 
 
-// @LINE:20
+// @LINE:21
+// @LINE:18
 // @LINE:17
 // @LINE:16
 // @LINE:15
@@ -28,11 +29,11 @@ import Router.queryString
 // @LINE:6
 package controllers {
 
-// @LINE:20
+// @LINE:21
 class ReverseAssets {
     
 
-// @LINE:20
+// @LINE:21
 def at(file:String): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
 }
@@ -41,6 +42,7 @@ def at(file:String): Call = {
 }
                           
 
+// @LINE:18
 // @LINE:17
 // @LINE:16
 // @LINE:15
@@ -67,9 +69,17 @@ def renderShortTermMemoryBrownPetersonTaskIframe(): Call = {
 }
                                                 
 
+// @LINE:18
 // @LINE:17
 def renderShortTermMemoryBrownPetersonTaskExp(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "STMBtExp")
+   () match {
+// @LINE:17
+case () if true => Call("GET", _prefix + { _defaultPrefix } + "STMBtExp")
+                                                        
+// @LINE:18
+case () if true => Call("POST", _prefix + { _defaultPrefix } + "STMBtExp")
+                                                        
+   }
 }
                                                 
 
@@ -140,7 +150,8 @@ def perceptionSignalDetection(): Call = {
                   
 
 
-// @LINE:20
+// @LINE:21
+// @LINE:18
 // @LINE:17
 // @LINE:16
 // @LINE:15
@@ -155,11 +166,11 @@ def perceptionSignalDetection(): Call = {
 // @LINE:6
 package controllers.javascript {
 
-// @LINE:20
+// @LINE:21
 class ReverseAssets {
     
 
-// @LINE:20
+// @LINE:21
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -173,6 +184,7 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:18
 // @LINE:17
 // @LINE:16
 // @LINE:15
@@ -214,12 +226,18 @@ def renderShortTermMemoryBrownPetersonTaskIframe : JavascriptReverseRoute = Java
 )
                         
 
+// @LINE:18
 // @LINE:17
 def renderShortTermMemoryBrownPetersonTaskExp : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.BrownPeterson.renderShortTermMemoryBrownPetersonTaskExp",
    """
       function() {
+      if (true) {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "STMBtExp"})
+      }
+      if (true) {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "STMBtExp"})
+      }
       }
    """
 )
@@ -332,7 +350,8 @@ def perceptionSignalDetection : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:20
+// @LINE:21
+// @LINE:18
 // @LINE:17
 // @LINE:16
 // @LINE:15
@@ -348,11 +367,11 @@ def perceptionSignalDetection : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:20
+// @LINE:21
 class ReverseAssets {
     
 
-// @LINE:20
+// @LINE:21
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this, "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -361,6 +380,7 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
+// @LINE:18
 // @LINE:17
 // @LINE:16
 // @LINE:15

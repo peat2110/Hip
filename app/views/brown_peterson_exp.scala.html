@@ -1,4 +1,4 @@
-@(questions : List[brownPeterson.Question],count : Integer,answerForm : Form[brownPeterson.Answer])
+@(question : brownPeterson.Question,count : Integer)
 @header("Human Information Processing Lab :: Home Page")
 <body>
 
@@ -11,9 +11,9 @@
 <div class="brownPeterson"></div>
 <!-- Content -->
 <div class="questionBox">
-      <div align="center" class="questionWord" id="word1"></div>
-      <div align="center" class="questionWord" id="word2"></div>
-      <div align="center" class="questionWord" id="word3"></div>
+      <div align="center" class="questionWord" id="word1" style="visibility:hidden">@question.firstWord</div>
+      <div align="center" class="questionWord" id="word2" style="visibility:hidden">@question.secondWord</div>
+      <div align="center" class="questionWord" id="word3" style="visibility:hidden">@question.thirdWord</div>
 </div>
 <div class="rabbitContainer">
   <div id="hopRabbit"class="rabbit"></div>
@@ -25,11 +25,11 @@
   <span class="headerBox">คำตอบ</span>
   <span class="headerNumberBox">ใส่ตัวเลข</span>
         <form action="@routes.BrownPeterson.renderShortTermMemoryBrownPetersonTaskExp()" method="post">
-          <input class="inputBox" id = "text1" name = "firstWord" type="text" placeholder="      คำตอบ" disabled />
-          <input class="inputBox" id = "text2" name = "secondWord" type="text" placeholder="      คำตอบ" disabled />
-          <input class="inputBox" id = "text3" name = "thirdWord" type="text" placeholder="     คำตอบ" value="assh" disabled />
-          <input class="inputNumberBox" id = "text4" name = "countdownResult" type="text" placeholder="  เลข" disabled />
-          <input class="inputBox" id = "text5" name = "usedTime" type="text" disabled />
+          <input class="inputBox" id = "firstWord" name = "firstWord" type="text" placeholder="      คำตอบ" disabled />
+          <input class="inputBox" id = "secondWord" name = "secondWord" type="text" placeholder="      คำตอบ" disabled />
+          <input class="inputBox" id = "thirdWord" name = "thirdWord" type="text" placeholder="     คำตอบ"  disabled />
+          <input class="inputNumberBox" id = "countdownResult" name = "countdownResult" type="text" placeholder="  เลข" disabled />
+          <input class="inputNumberBox" id = "usedTime" name = "usedTime" type="text" disabled hidden/>
           <input type="submit" class="sbutton" disabled id="SubmitButton" value="ยืนยัน" onclick="return submitButtonClick()"/>
         </form>
 </div>

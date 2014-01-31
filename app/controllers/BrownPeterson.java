@@ -10,12 +10,14 @@ import views.html.iframe.*;
 
 import models.*;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
 import models.brownPeterson.*;
 
 public class BrownPeterson extends Controller {
-    public static Form<Answer> ansForm = Form.form(Answer.class);
-
-        int count = 0;
+    public static List<Answer> answerList = new ArrayList<Answer>();
+    public static List<Question> questions = Question.getQuestionListBy(2);
+    public static int questionNumber = 0;
 
         public static Result renderShortTermMemoryBrownPetersonTask(){
             return ok(brown_peterson_info.render());
@@ -31,7 +33,18 @@ public class BrownPeterson extends Controller {
             return ok(brown_peterson_proc_iframe.render());
         }
         public static Result renderShortTermMemoryBrownPetersonTaskExp(){
-            List<Question> questions = Question.getQuestionListBy(3);
-            return ok(brown_peterson_exp.render(questions,1200,ansForm));
+            Form<Answer> filledForm = Form.form(Answer.class);
+            Answer answer = filledForm.bindFromRequest().get();
+            if (questionNumber > 0){
+                answerList.add(answer);
+            }
+            if (questionNumber+1 <= questions.size())
+                return ok(brown_peterson_exp.render(questions.get(questionNumber++),1200));
+            else{
+                List<Answer> answerListTemp = new ArrayList<Answer>(answerList);
+                questionNumber = 0;
+                answerList.clear();
+                return ok(brown_peterson_result.render(answerListTemp));
+            }
         }
 }
