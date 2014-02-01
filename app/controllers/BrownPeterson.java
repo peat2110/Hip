@@ -38,8 +38,10 @@ public class BrownPeterson extends Controller {
             if (questionNumber > 0){
                 answerList.add(answer);
             }
-            if (questionNumber+1 <= questions.size())
-                return ok(brown_peterson_exp.render(questions.get(questionNumber++),1200));
+            if (questionNumber+1 <= questions.size()){
+                int flashTime = 5000;
+                return ok(brown_peterson_exp.render(questions.get(questionNumber++),1200,flashTime));
+            }
             else{
                 List<Answer> answerListTemp = new ArrayList<Answer>(answerList);
                 questionNumber = 0;
