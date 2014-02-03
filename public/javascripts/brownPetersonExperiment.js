@@ -51,17 +51,14 @@ function answerTimerFunction(){
 }
 
 function finishTimerFunction(){
+
         clearInterval(finTimer);
-        document.getElementById("firstWord").disabled = true;
-        document.getElementById("secondWord").disabled = true;
-        document.getElementById("thirdWord").disabled = true;
-        document.getElementById("countdownResult").disabled = true;
-        d = new Date();
-        expDuration = d.getTime()-expDuration;
-        isStore = 1;
+        submitButtonClick();
+        document.forms["answerForm"].submit();
 }
 
 function submitButtonClick(){
+
      document.getElementById("firstWord").disabled = false;
      document.getElementById("secondWord").disabled = false;
      document.getElementById("thirdWord").disabled = false;

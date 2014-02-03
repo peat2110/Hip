@@ -32,9 +32,11 @@ public class BrownPeterson extends Controller {
         public static Result renderShortTermMemoryBrownPetersonTaskProcIframe(){
             return ok(brown_peterson_proc_iframe.render());
         }
+
         public static Result renderShortTermMemoryBrownPetersonTaskExp(){
             Form<Answer> filledForm = Form.form(Answer.class);
             Answer answer = filledForm.bindFromRequest().get();
+
             if (questionNumber > 0){
                 answerList.add(answer);
             }
@@ -49,4 +51,5 @@ public class BrownPeterson extends Controller {
                 return ok(brown_peterson_result.render(answerListTemp));
             }
         }
+
 }
